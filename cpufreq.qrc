@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/freq">
+        <file>res/cpufreq-0.png</file>
+        <file>res/cpufreq-25.png</file>
+        <file>res/cpufreq-50.png</file>
+        <file>res/cpufreq-75.png</file>
+        <file>res/cpufreq-100.png</file>
+    </qresource>
+</RCC>
