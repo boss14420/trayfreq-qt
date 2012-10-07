@@ -16,8 +16,8 @@ SET(trayfreq_SOURCES main.cpp freqtray.cpp)
 SET(trayfreq_HEADERS freqtray.h)
 SET(trayfreq_RESOURCES cpufreq.qrc)
 
-#SET(CMAKE_CXX_FLAGS "-O2 -Wall -march=native -ftree-vectorize -fomit-frame-pointer")
-SET(CMAKE_CXX_FLAGS "-g -O0 -Wall")
+SET(CMAKE_CXX_FLAGS "-O2 -Wall -march=native -ftree-vectorize -fomit-frame-pointer")
+#SET(CMAKE_CXX_FLAGS "-g -O0 -Wall")
 
 QT4_WRAP_CPP(trayfreq_HEADERS_MOC ${trayfreq_HEADERS})
 QT4_ADD_RESOURCES(trayfreq_RESOURCES_RCC ${trayfreq_RESOURCES})
